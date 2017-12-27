@@ -1,4 +1,4 @@
-[Revisar en Español](/es/)
+[Revisar en Español](/es/index.html)
 
 ## RESUME
 \*NIX Systems Administrator / \*NIX Backend Developer
