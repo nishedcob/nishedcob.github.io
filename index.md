@@ -39,7 +39,7 @@ Cofounder of [LatiNubes](https://latinubes.net/) Entrepreneurship.
 
 #### **CIDSecure,** Loja, Ecuador — *Principal Systems Deployment Architect*
 ##### November 2016 - October 2017
-In charge of architecture deployments to all servers related to project MUBER.
+In charge of architecture in deployments to all servers related to project MUBER.
 
 #### **CIDSecure,** Loja, Ecuador — *Principal Systems Administrator*
 ##### November 2016 - October 2017
@@ -47,7 +47,7 @@ In charge of server security and deployments to all servers related to project M
 
 #### **Nodo / Electritelecom with CIDSecure,** Loja, Ecuador — *Principal Systems Deployment Architect*
 ##### November 2016 - October 2017
-In charge of architecture deployments to all servers related to project GOODAPPETIT.
+In charge of architecture in deployments to all servers related to project GOODAPPETIT.
 
 #### **Nodo / Electritelecom with CIDSecure,** Loja, Ecuador — *Principal Systems Administrator*
 ##### November 2016 - October 2017
@@ -137,8 +137,9 @@ Database Administrator with:
 - Triplestore Experience with:
   - Datamapping as:
     - RDF
-    - N-Tuples
-  - DBPedia queries via SPARQL.
+    - N-Triples
+  - DBPedia queries via SPARQL
+  - OpenLink Virtuoso
 
 Systems Deployment Architect for the design and implementation of high level deployment and maintenance plans of N-Level Systems across M-Tiers that provide quality attributes including:
 - Portability
@@ -167,22 +168,22 @@ English (native speaker), Spanish (highly fluent)
 
 ### PROJECTS
 #### **GitEDU** — *Online IDE Service*
-Service with the purpose of allowing universities to be able to offer students a low cost, open source Linux based extensible IDE online. This is my engineering thesis along with some other services that add functionality as listed below. Currently Python 3, Shell Script and PostgreSQL are supported languages for execution in the Kubernetes/Docker backend (see EduNube project). Classic Username/Password in addition to LTI authentication (for direct integration with most LMS like Moodle, OpenEdX, etc) is supported. Front end uses Cloud9’s open source ACE editor and Twitter Bootstrap. Written in Python with the Django Framework. Code at: [GitLab](https://gitlab.com/nishedcob/GitEDU) (see GitEDU directory and gitedu branch, activate-ge.sh for VirtualEnv creation/pip install and activation)
+Service with the purpose of allowing universities to be able to offer students a low cost, open source Linux based extensible IDE online. This is my engineering thesis along with some other services that add functionality as listed below. Currently Python 3, Shell Script and PostgreSQL are supported languages for execution in the Kubernetes/Docker backend (see EduNube project). Classic Username/Password in addition to LTI authentication (for direct integration with most LMS like Moodle, OpenEdX, etc) is supported. Front end uses Cloud9’s open source ACE editor and Twitter Bootstrap. Written in Python with the Django Framework. Code at: [GitLab](https://gitlab.com/nishedcob/GitEDU) [GitHub](https://github.com/nishedcob/GitEDU) (see GitEDU directory and gitedu branch, activate-ge.sh for VirtualEnv creation/pip install and activation)
 
 #### **EduNube** — *Code Execution Service*
-Service for receiving HTTP requests and executing the code in a secure virtualized environment (currently a Virtualized Kubernetes Cluster with Docker)  as part of the functionality offered in GitEDU service in my engineering thesis. JSON Web Tokens are used for API authentication. Written in Python with the Django Framework with a Shell Script Backend. Code at: [GitLab](https://gitlab.com/nishedcob/GitEDU) (see EduNube, Docker and Kubernetes directories and edunube branch, activate-en.sh for VirtualEnv creation/pip install and activation)
+Service for receiving HTTP requests and executing the code in a secure virtualized environment (currently a Virtualized Kubernetes Cluster with Docker)  as part of the functionality offered in GitEDU service in my engineering thesis. JSON Web Tokens are used for API authentication. Written in Python with the Django Framework with a Shell Script Backend. Code at: [GitLab](https://gitlab.com/nishedcob/GitEDU) [GitHub](https://github.com/nishedcob/GitEDU) (see EduNube, Docker and Kubernetes directories and edunube branch, activate-en.sh for VirtualEnv creation/pip install and activation)
 
 #### **GitServerHTTPEndpoint** — *Convert HTTP requests into Git Objects, for use with GitWeb*
-Service for receiving HTTP requests and converting them into their respective objects in locally hosted Git repositories as part of the functionality offered in GitEDU service in my engineering thesis. JSON Web Tokens are used for API authentication. Written in Python with the Django Framework with a Shell Script Backend. Code at: [GitLab](https://gitlab.com/nishedcob/GitServerHTTPEndpoint) (VirtualEnv/Dependency Management with PipEnv)
+Service for receiving HTTP requests and converting them into their respective objects in locally hosted Git repositories as part of the functionality offered in GitEDU service in my engineering thesis. JSON Web Tokens are used for API authentication. Written in Python with the Django Framework with a Shell Script Backend. Code at: [GitLab](https://gitlab.com/nishedcob/GitServerHTTPEndpoint) [GitHub](https://github.com/nishedcob/GitServerHTTPEndpoint) (VirtualEnv/Dependency Management with PipEnv)
 
 #### **postgresql-code-executor-template** — *Execute Shell Script and PostgreSQL statements in a Docker Container*
-Template for executing shell script and PostgreSQL statements within a Docker container using EduNube service as part of the functionality of my engineering thesis. Includes the possibility for database initialization (in the use case of a database professor) before the execution of the end user’s SQL statements. Written completely in Shell Script with Sample SQL Code. Code at: [GitLab](https://gitlab.com/nishedcob/postgresql-code-executor-template)
+Template for executing shell script and PostgreSQL statements within a Docker container using EduNube service as part of the functionality of my engineering thesis. Includes the possibility for database initialization (in the use case of a database professor) before the execution of the end user’s SQL statements. Written completely in Shell Script with Sample SQL Code. Code at: [GitLab](https://gitlab.com/nishedcob/postgresql-code-executor-template) [GitHub](https://github.com/nishedcob/postgresql-code-executor-template)
 
 #### **python3-code-executor-template** — *Execute Shell Script and Python 3.x in a Docker Container*
-Template for executing shell script and Python 3 within a Docker container using EduNube service as part of the functionality of my engineering thesis. Includes Virtualenv and Pip 3 Integration for installation of dependencies defined by the end user. Written completely in Shell Script with Sample Python 3 Code. Code at: [GitLab](https://gitlab.com/nishedcob/python3-code-executor-template)
+Template for executing shell script and Python 3 within a Docker container using EduNube service as part of the functionality of my engineering thesis. Includes Virtualenv and Pip 3 Integration for installation of dependencies defined by the end user. Written completely in Shell Script with Sample Python 3 Code. Code at: [GitLab](https://gitlab.com/nishedcob/python3-code-executor-template) [GitHub](https://github.com/nishedcob/python3-code-executor-template)
 
 #### **shell-code-executor-template** — *Execute Shell Script in a Docker Container*
-Base template for executing shell script within a Docker container using EduNube service as part of the functionality of my engineering thesis. Written completely in Shell Script. Code at: [GitLab](https://gitlab.com/nishedcob/shell-code-executor-template)
+Base template for executing shell script within a Docker container using EduNube service as part of the functionality of my engineering thesis. Written completely in Shell Script. Code at: [GitLab](https://gitlab.com/nishedcob/shell-code-executor-template) [GitHub](https://github.com/nishedcob/shell-code-executor-template)
 
 #### **SBC-Climate-App** — *Present Climate Data as a Web Application*
 Present Climate Change data, collected in a semantic graph (RDF/N-Triplets) in easier ways for the average person to understand. Written in Python with the Django Framework. Code at: [GitHub]( https://github.com/nishedcob/SBC-Climate-App)
