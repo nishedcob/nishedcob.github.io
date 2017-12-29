@@ -1,4 +1,4 @@
-[Revisar en Español](/es/index.html)
+[Revisar en Español](/es/)
 
 ## RESUME
 \*NIX Systems Administrator / \*NIX Backend Developer
@@ -7,7 +7,7 @@
 
 #### **LatiFabs,** Loja, Ecuador — *Principal Systems Deployment Architect*
 ##### September 2017 - PRESENT
-In charge of architecture deployments to all servers related to [LatiFabs](https://latifabs.me/).
+In charge of architecture in deployments to all servers related to [LatiFabs](https://latifabs.me/).
 
 #### **LatiFabs,** Loja, Ecuador — *Principal Systems Administrator*
 ##### September 2017 - PRESENT
@@ -23,7 +23,7 @@ Cofounder of [LatiFabs](https://latifabs.me/) Entrepreneurship.
 
 #### **LatiNubes,** Loja, Ecuador — *Principal Systems Deployment Architect*
 ##### September 2016 - PRESENT
-In charge of architecture deployments to all servers related to [LatiNubes](https://latinubes.net/).
+In charge of architecture in deployments to all servers related to [LatiNubes](https://latinubes.net/).
 
 #### **LatiNubes,** Loja, Ecuador — *Principal Systems Administrator*
 ##### September 2016 - PRESENT
