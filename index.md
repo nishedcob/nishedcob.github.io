@@ -9,38 +9,6 @@ DevOps Engineer / Data Scientist / \*NIX Backend Developer
 
 ### PRE-PROFESSIONAL EXPERIENCE
 
-#### **LatiFabs,** Loja, Ecuador — *Principal Systems Deployment Architect*
-##### September 2017 - PRESENT
-In charge of architecture in deployments to all servers related to [LatiFabs](https://latifabs.me/).
-
-#### **LatiFabs,** Loja, Ecuador — *Principal Systems Administrator*
-##### September 2017 - PRESENT
-In charge of server security and deployments to all servers related to [LatiFabs](https://latifabs.me/).
-
-#### **LatiFabs,** Loja, Ecuador — *Chief Operating Officer*
-##### September 2017 - PRESENT
-In charge of science and technology and its application in daily operations at [LatiFabs](https://latifabs.me).
-
-#### **LatiFabs,** Loja, Ecuador — *Cofounder, Investor and Entrepreneur*
-##### September 2017 - PRESENT
-Cofounder of [LatiFabs](https://latifabs.me/) Entrepreneurship.
-
-#### **LatiNubes,** Loja, Ecuador — *Principal Systems Deployment Architect*
-##### September 2016 - PRESENT
-In charge of architecture in deployments to all servers related to [LatiNubes](https://latinubes.net/).
-
-#### **LatiNubes,** Loja, Ecuador — *Principal Systems Administrator*
-##### September 2016 - PRESENT
-In charge of server security and deployments to all servers related to [LatiNubes](https://latinubes.net/).
-
-#### **LatiNubes,** Loja, Ecuador — *Chief Operating Officer*
-##### September 2016 - PRESENT
-In charge of science and technology and its application in daily operations at [LatiNubes](https://latinubes.net/).
-
-#### **LatiNubes,** Loja, Ecuador — *Cofounder, Investor and Entrepreneur*
-##### September 2016 - PRESENT
-Cofounder of [LatiNubes](https://latinubes.net/) Entrepreneurship.
-
 #### **CIDSecure,** Loja, Ecuador — *Principal Systems Deployment Architect*
 ##### November 2016 - October 2017
 In charge of architecture in deployments to all servers related to project MUBER.
