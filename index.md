@@ -1,7 +1,11 @@
 [Revisar en Español](/es/)
 
-## RESUME
-\*NIX Systems Administrator / \*NIX Backend Developer
+## Nicholas Spalding Earley-Dolenc
+### *Email:* nishedcob (at) gmail (dot) com
+### Loja, Ecuador
+DevOps Engineer / Data Scientist / \*NIX Backend Developer
+
+**Full Open Source Stack**
 
 ### PRE-PROFESSIONAL EXPERIENCE
 
