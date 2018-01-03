@@ -35,7 +35,6 @@ General consultant for bug fixes and other issues (at a application level), Prin
 
 #### **Nodo / Electritelecom**, Loja — *Java Programmer / Analyst*
 ##### September 2015 - February 2016
-
 Worked on facial recognition system with OpenCV and IP Cameras built by Tiandy.
 
 #### **IEEE Computer Society UTPL Chapter,** Loja — *Vice President*
@@ -43,20 +42,20 @@ Worked on facial recognition system with OpenCV and IP Cameras built by Tiandy.
 Organized educational events and people who participated.
 
 ### EDUCATION
-#### **UTPL,** Loja — *Computer Science Engineer*
+#### **Universidad Técnica Particular de Loja (UTPL),** Loja, Ecuador — *Computer Science Engineer*
 ##### September 2012 - February 2018
-Broad experience in many facets of Computer Science; system analysis, programing, artificial intelligence and artificial vision, database design and administration, networking, parallel computing, project management and computer architecture design.
+Broad experience in many facets of Computer Science; system analysis, programming, artificial intelligence and artificial vision, database design and administration, networking, parallel computing, project management and computer architecture design.
 
-#### **Boulder Universal,** Boulder, CO, United States — *High School*
+#### **Boulder Universal,** Boulder, Colorado, United States — *High School*
 ##### September 2011 - May 2012
 Finished High School as a Distance Student in Cuenca, Ecuador.
 
-#### **Fairview High School,** Boulder, CO, United States — *High School*
+#### **Fairview High School,** Boulder, Colorado, United States — *High School*
 ##### September 2008 - May 2011
 High School studies with a greater focus on Math, Science and World History.
 
 ### SKILLS
-Backend Programer and Analyst with Experience in:
+Backend Programmer and Analyst with Experience in:
 - C
 - Python
 - Java
@@ -132,15 +131,15 @@ Some 3D Printing experience with:
  - PLA plastic
  - Kossel type printers
 
-### LANGUAGES
-English (native speaker), Spanish (highly fluent)
+### HUMAN LANGUAGES
+English (native speaker), Spanish (fluent)
 
-### ACTUAL PROJECTS
+### CURRENT PROJECTS
 **GitEDU/EduNube** - Engineering Thesis started in February of 2017. Software Integration Aplicacion with Institucional LMS, GitLab integration (as a persistent backend), Online Code Editing and Execution with Virtualization. Full details below...
 
 ### PROJECTS
 #### **GitEDU** — *Online IDE Service*
-Service with the purpose of allowing universities to be able to offer students a low cost, open source Linux based extensible IDE online. This is my engineering thesis along with some other services that add functionality as listed below. Currently Python 3, Shell Script and PostgreSQL are supported languages for execution in the Kubernetes/Docker backend (see EduNube project). Classic Username/Password in addition to LTI authentication (for direct integration with most LMS like Moodle, OpenEdX, etc) is supported. Front end uses Cloud9’s open source ACE editor and Twitter Bootstrap. Written in Python with the Django Framework. Code at: [GitLab](https://gitlab.com/nishedcob/GitEDU) [GitHub](https://github.com/nishedcob/GitEDU) (see GitEDU directory and gitedu branch, activate-ge.sh for VirtualEnv creation/pip install and activation)
+Service with the purpose of allowing universities to be able to offer students a low cost, open source Linux-based extensible IDE online. This is my engineering thesis along with some other services that add functionality as listed below. Currently Python 3, Shell Script and PostgreSQL are supported languages for execution in the Kubernetes/Docker backend (see EduNube project). Classic Username/Password in addition to LTI authentication (for direct integration with most LMS like Moodle, OpenEdX, etc) is supported. Front end uses Cloud9’s open source ACE editor and Twitter Bootstrap. Written in Python with the Django Framework. Code at: [GitLab](https://gitlab.com/nishedcob/GitEDU) [GitHub](https://github.com/nishedcob/GitEDU) (see GitEDU directory and gitedu branch, activate-ge.sh for VirtualEnv creation/pip install and activation)
 
 #### **EduNube** — *Code Execution Service*
 Service for receiving HTTP requests and executing the code in a secure virtualized environment (currently a Virtualized Kubernetes Cluster with Docker)  as part of the functionality offered in GitEDU service in my engineering thesis. JSON Web Tokens are used for API authentication. Written in Python with the Django Framework with a Shell Script Backend. Code at: [GitLab](https://gitlab.com/nishedcob/GitEDU) [GitHub](https://github.com/nishedcob/GitEDU) (see EduNube, Docker and Kubernetes directories and edunube branch, activate-en.sh for VirtualEnv creation/pip install and activation)
@@ -164,7 +163,7 @@ Present Climate Change data, collected in a semantic graph (RDF/N-Triplets) in e
 Convert Climate Change data in CSV,  to a semantic graph (RDF/N-Triplets) for use with **_SBC-Climate-App_** and Virtuoso OpenSource. Written in Java as a Maven Project with Apache Jena as a dependency. Code at: [GitLab](https://gitlab.com/nishedcob/SBC-Data-Translator)
 
 #### **GitLogSync** — *Synchronize Logs from servers to external backup*
-Custom mini framework that uses Cron Jobs and a Git backend to take periodic snapshots of critical logs and sync them to an external private remote Git repository. Written in Shell Script.
+Custom mini framework that uses Cron Jobs and a Git backend to take periodic snapshots of critical logs and sync them to an external private remote Git repository to automate the process for MUBER and GOODAPPETIT and in doing so provide authorized members of the development and QA teams direct access to the logs for the production and testing environments. Written in Shell Script.
 
 #### **py3-csv2nt** — *Convert CSV files in table form into N-Triplets*
 Based on a definition of how the data is structure in the table (what are the respective columns), Triplets are generated that can then be converted into RDF and graphs via 3rd party tools. Written in Python. Code at: [GitHub](https://github.com/nishedcob/py3-csv2nt)
@@ -173,7 +172,7 @@ Based on a definition of how the data is structure in the table (what are the re
 Prototype/Proof of Concept for editing code online and saving it to GitLab CE as code snippets. Formed the inspiration for my engineering thesis. Front end uses Cloud9’s open source ACE editor and Twitter Bootstrap. Backend Written in Python with the Django Framework. Code at: [GitLab](https://gitlab.com/ArqAppGrpBravoEarleyVargas/GitEduERP)
 
 #### **Muber** — *Bicycle Rental Portal*
-Portal for managing a electric bicycle rental business online. **The project is now defunct due to poor management/administration of contract with client.**
+Portal for managing an electric bicycle rental business online. **The project is now defunct due to poor management/administration of contract by the client.**
 
 #### **GoodAppetit** — *Point of Sale for Food Online*
 Portal for selling food online from various restaurants and associated delivery to clients. Written in Python / Django. See: [Production Environment](https://goodappetit.com/)
