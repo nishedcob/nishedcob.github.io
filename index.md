@@ -9,6 +9,18 @@ DevOps Engineer / Data Scientist / \*NIX Backend Developer
 
 ### PRE-PROFESSIONAL EXPERIENCE
 
+#### **Nodo / Electritelecom,** Loja, Ecuador — *Principal DevOps Engineer*
+##### March 2018 - PRESENT
+In charge of automating Continuous Integration in ISP Video Project.
+
+#### **Nodo / Electritelecom,** Loja, Ecuador — *Principal Systems Deployment Architect*
+##### March 2018 - PRESENT
+In charge of architecture in deployments to all servers related to ISP Video Project.
+
+#### **Nodo / Electritelecom,** Loja, Ecuador — *Principal Systems Administrator*
+##### March 2018 - PRESENT
+In charge of server security and deployments to all servers related to ISP Video Project.
+
 #### **CIDSecure,** Loja, Ecuador — *Principal Systems Deployment Architect*
 ##### November 2016 - October 2017
 In charge of architecture in deployments to all servers related to project MUBER.
@@ -70,15 +82,18 @@ Systems Administrator with:
   - Fedora
   - Archlinux
   - Xen (with Debian as Dom0)
+  - QubesOS (Xen with Fedora as Dom0)
   - pfSense
 - Cluster Experience with:
   - PelicanHPC
   - Rocks
 - Application Experience with:
   - NGinX
-  - UWSGI
+  - uWSGI
+  - Gunicorn
   - Docker (Docker-Compose and Docker-Swarm)
   - Kubernetes
+  - Ansible
   - ProFTPD
   - HTCondor
   - CronD
@@ -88,6 +103,7 @@ Systems Administrator with:
   - OpenSSH
   - OpenVPN
   - GitLab CE
+  - GitWeb
   - SSLH
   - Moodle
 - Providers Experience:
@@ -135,9 +151,18 @@ Some 3D Printing experience with:
 English (native speaker), Spanish (fluent)
 
 ### CURRENT PROJECTS
-**GitEDU/EduNube** - Engineering Thesis started in February of 2017. Software Integration Aplicacion with Institucional LMS, GitLab integration (as a persistent backend), Online Code Editing and Execution with Virtualization. Full details below...
+**ISP Video Service** - Video streaming service on ISP's local WAN, using Django, Gunicorn, PostgreSQL and NGinX.
+
+**GitEDU-Ansible** — Automate Deployment and Configuration of Engineering Thesis with an
+Ansible playbook (GitEDU + EduNube + GitServerHTTPEndpoint). Was inicially using Debian Docker SSH image for testing, now using Debian Vagrantfile. Code at: [GitLab](https://gitlab.com/nishedcob/GitEDU-Ansible) [GitHub](https://github.com/nishedcob/GitEDU-Ansible)
 
 ### PROJECTS
+#### **GitEDU-Ansible** — *Automate Deployment and Configuration of Engineering Thesis*
+Ansible playbook for deploying engineering thesis (GitEDU + EduNube + GitServerHTTPEndpoint). Was inicially using Debian Docker SSH image for testing, now using Debian Vagrantfile. Code at: [GitLab](https://gitlab.com/nishedcob/GitEDU-Ansible) [GitHub](https://github.com/nishedcob/GitEDU-Ansible)
+
+#### **Docker SSH** — *Lightweight containers for testing deployments*
+At the moment, only a Debian based Docker image that runs sshd with supervisord, for initial testing with Ansible or other orchestration frameworks. Code at: [GitLab](https://gitlab.com/nishedcob/docker-ssh) [GitHub](https://github.com/nishedcob/docker-ssh)
+
 #### **GitEDU** — *Online IDE Service*
 Service with the purpose of allowing universities to be able to offer students a low cost, open source Linux-based extensible IDE online. This is my engineering thesis along with some other services that add functionality as listed below. Currently Python 3, Shell Script and PostgreSQL are supported languages for execution in the Kubernetes/Docker backend (see EduNube project). Classic Username/Password in addition to LTI authentication (for direct integration with most LMS like Moodle, OpenEdX, etc) is supported. Front end uses Cloud9’s open source ACE editor and Twitter Bootstrap. Written in Python with the Django Framework. Code at: [GitLab](https://gitlab.com/nishedcob/GitEDU) [GitHub](https://github.com/nishedcob/GitEDU) (see GitEDU directory and gitedu branch, activate-ge.sh for VirtualEnv creation/pip install and activation)
 
