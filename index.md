@@ -34,7 +34,7 @@ In charge of server security and deployments to all servers related to project M
 In charge of architecture in deployments to all servers related to project GOODAPPETIT.
 
 #### **Nodo / Electritelecom with CIDSecure,** Loja, Ecuador — *Principal Systems Administrator*
-##### November 2016 - October 2017
+##### June 2016 - October 2017
 In charge of server security and deployments to all servers related to project GOODAPPETIT.
 
 #### **Nodo / Electritelecom with CIDSecure,** Loja, Ecuador — *Principal Database Administrator*
