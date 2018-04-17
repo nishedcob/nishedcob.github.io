@@ -111,6 +111,8 @@ Systems Administrator with:
   - Microsoft Azure
   - IBM Softlayer
   - Linode
+  - DigitalOcean
+  - Google Cloud
 
 Database Administrator with:
 - SQL Experience in:
@@ -151,14 +153,17 @@ Some 3D Printing experience with:
 English (native speaker), Spanish (fluent)
 
 ### CURRENT PROJECTS
-**ISP Video Service** - Video streaming service on ISP's local WAN, using Django, Gunicorn, PostgreSQL and NGinX.
+**ISP Video Service** - Video streaming service on ISP's local WAN, using Django, Gunicorn, PostgreSQL and NGinX. Deployment automated with Ansible Playbook.
 
 **GitEDU-Ansible** — Automate Deployment and Configuration of Engineering Thesis with an
-Ansible playbook (GitEDU + EduNube + GitServerHTTPEndpoint). Was inicially using Debian Docker SSH image for testing, now using Debian Vagrantfile. Code at: [GitLab](https://gitlab.com/nishedcob/GitEDU-Ansible) [GitHub](https://github.com/nishedcob/GitEDU-Ansible)
+Ansible playbook (GitEDU + EduNube + GitServerHTTPEndpoint). Was initially using Debian Docker SSH image for testing, now using Debian Vagrantfile. Code at: [GitLab](https://gitlab.com/nishedcob/GitEDU-Ansible) [GitHub](https://github.com/nishedcob/GitEDU-Ansible)
 
 ### PROJECTS
+#### **ISP Video Service** - *Automate Deployment and Configuration of Video Streaming Service*
+Video streaming service on ISP's local WAN, using Django, Gunicorn, PostgreSQL and NGinX. Deployment automated with Ansible Playbook.
+
 #### **GitEDU-Ansible** — *Automate Deployment and Configuration of Engineering Thesis*
-Ansible playbook for deploying engineering thesis (GitEDU + EduNube + GitServerHTTPEndpoint). Was inicially using Debian Docker SSH image for testing, now using Debian Vagrantfile. Code at: [GitLab](https://gitlab.com/nishedcob/GitEDU-Ansible) [GitHub](https://github.com/nishedcob/GitEDU-Ansible)
+Ansible playbook for deploying engineering thesis (GitEDU + EduNube + GitServerHTTPEndpoint). Was initially using Debian Docker SSH image for testing, now using Debian Vagrantfile. Code at: [GitLab](https://gitlab.com/nishedcob/GitEDU-Ansible) [GitHub](https://github.com/nishedcob/GitEDU-Ansible)
 
 #### **Docker SSH** — *Lightweight containers for testing deployments*
 At the moment, only a Debian based Docker image that runs sshd with supervisord, for initial testing with Ansible or other orchestration frameworks. Code at: [GitLab](https://gitlab.com/nishedcob/docker-ssh) [GitHub](https://github.com/nishedcob/docker-ssh)
@@ -182,7 +187,7 @@ Template for executing shell script and Python 3 within a Docker container using
 Base template for executing shell script within a Docker container using EduNube service as part of the functionality of my engineering thesis. Written completely in Shell Script. Code at: [GitLab](https://gitlab.com/nishedcob/shell-code-executor-template) [GitHub](https://github.com/nishedcob/shell-code-executor-template)
 
 #### **SBC-Climate-App** — *Present Climate Data as a Web Application*
-Present Climate Change data, collected in a semantic graph (RDF/N-Triplets) in easier ways for the average person to understand. Written in Python with the Django Framework. Code at: [GitHub]( https://github.com/nishedcob/SBC-Climate-App)
+Present Climate Change data, collected in a semantic graph (RDF/N-Triplets) in easier ways for the average person to understand. Written in Python with the Django Framework. Code at: [GitHub](https://github.com/nishedcob/SBC-Climate-App) [GitLab](https://gitlab.com/nishedcob/SBC-Climate-App)
 
 #### **SBC-Data-Translator** — *Convert Climate Data from CSVs to RDF/N-Triplets Semantic Graph for easier consumption*
 Convert Climate Change data in CSV,  to a semantic graph (RDF/N-Triplets) for use with **_SBC-Climate-App_** and Virtuoso OpenSource. Written in Java as a Maven Project with Apache Jena as a dependency. Code at: [GitLab](https://gitlab.com/nishedcob/SBC-Data-Translator)
@@ -191,25 +196,25 @@ Convert Climate Change data in CSV,  to a semantic graph (RDF/N-Triplets) for us
 Custom mini framework that uses Cron Jobs and a Git backend to take periodic snapshots of critical logs and sync them to an external private remote Git repository to automate the process for MUBER and GOODAPPETIT and in doing so provide authorized members of the development and QA teams direct access to the logs for the production and testing environments. Written in Shell Script.
 
 #### **py3-csv2nt** — *Convert CSV files in table form into N-Triplets*
-Based on a definition of how the data is structure in the table (what are the respective columns), Triplets are generated that can then be converted into RDF and graphs via 3rd party tools. Written in Python. Code at: [GitHub](https://github.com/nishedcob/py3-csv2nt)
-
-#### **GitEduERP** — *Prototype Online IDE*
-Prototype/Proof of Concept for editing code online and saving it to GitLab CE as code snippets. Formed the inspiration for my engineering thesis. Front end uses Cloud9’s open source ACE editor and Twitter Bootstrap. Backend Written in Python with the Django Framework. Code at: [GitLab](https://gitlab.com/ArqAppGrpBravoEarleyVargas/GitEduERP)
+Based on a definition of how the data is structure in the table (what are the respective columns), Triplets are generated that can then be converted into RDF and graphs via 3rd party tools. Written in Python. Code at: [GitHub](https://github.com/nishedcob/py3-csv2nt) [GitLab](https://gitlab.com/nishedcob/py3-csv2nt)
 
 #### **Muber** — *Bicycle Rental Portal*
 Portal for managing an electric bicycle rental business online. **The project is now defunct due to poor management/administration of contract by the client.**
+
+#### **GitEduERP** — *Prototype Online IDE*
+Prototype/Proof of Concept for editing code online and saving it to GitLab CE as code snippets. Formed the inspiration for my engineering thesis. Front end uses Cloud9’s open source ACE editor and Twitter Bootstrap. Backend Written in Python with the Django Framework. Code at: [GitLab](https://gitlab.com/ArqAppGrpBravoEarleyVargas/GitEduERP)
 
 #### **GoodAppetit** — *Point of Sale for Food Online*
 Portal for selling food online from various restaurants and associated delivery to clients. Written in Python / Django. See: [Production Environment](https://goodappetit.com/)
 
 #### **NUX-BIN** — *Shell Wrapper Scripts for Personal Administration Idioms*
-Shell Wrapper Scripts for compression (XZ/TAR), combine DD with PV, use of SU instead of SUDO for Personal Systems Administration, etc. Written in Shell Script. Code at: [GitHub](https://github.com/nishedcob/nux-utils)
+Shell Wrapper Scripts for compression (XZ/TAR), combine DD with PV, use of SU instead of SUDO for Personal Systems Administration, etc. Written in Shell Script. Code at: [GitHub](https://github.com/nishedcob/nux-utils) [GitLab](https://gitlab.com/nishedcob/nux-utils)
 
 #### **Docker Compose for SugarCRM Container** — *Fork to add greater usability*
-Update to SugarCRM v6.5.23 and add persistence. Code at: [GitHub](https://github.com/nishedcob/docker-sugarcrm)
+Update to SugarCRM v6.5.23 and add persistence. Code at: [GitHub](https://github.com/nishedcob/docker-sugarcrm) [GitLab](https://gitlab.com/nishedcob/docker-sugarcrm)
 
 #### **LoxaCorp Linux** — *Project Management Simulation*
-Simulated Project Management aspect though planning stages of the construction of a commercial enterprise Linux. Also built prototype Hybrid ISOs based on Debian GNU/Linux using Live Build System. Code for construction with Live Build System at: [GitLab](https://gitlab.com/nishedcob/LoxaCorpSOsDebian)
+Simulated Project Management aspect though planning stages of the construction of a commercial enterprise Linux. Also built prototype Hybrid ISOs based on Debian GNU/Linux using Live Build System. Code for construction with Live Build System at: [GitLab](https://gitlab.com/nishedcob/LoxaCorpSOsDebian) [GitHub](https://github.com/nishedcob/LoxaCorpSOsDebian)
 
 #### **Number Recognition/Parsing** — *OpenCV and Python*
 Worked on Recognition and Parsing of Numbers in Images using Python and OpenCV. Code at: [GitHub](https://github.com/VAUTPL/Number_Detection)
@@ -218,7 +223,7 @@ Worked on Recognition and Parsing of Numbers in Images using Python and OpenCV. 
 Worked on Detection of Cars and Lanes using Python and OpenCV for a Professor’s Master’s Thesis. Code at: [GitHub](https://github.com/VAUTPL/Detection_of_cars_and_lines)
 
 #### **DJLC16** — *ISA and Virtual Machine (Processor)/Emulator*
-16 bit Instruction Set Architecture and accompanying virtual processor for emulation of Instruction Set. Written in C. Code at: [GitHub](https://github.com/nishedcob/DLCJ16)
+16 bit Instruction Set Architecture and accompanying virtual processor for emulation of Instruction Set. Written in C. Code at: [GitHub](https://github.com/nishedcob/DLCJ16) [GitLab](https://gitlab.com/nishedcob/DLCJ16)
 
 #### **DataEnCrypto** — *Cryptography Desktop Application*
-Desktop application written in Java to explore Classic Ciphers and their implementation. Code at: [GitHub](https://github.com/nishedcob/DataEnCrypto)
+Desktop application written in Java to explore Classic Ciphers and their implementation. Code at: [GitHub](https://github.com/nishedcob/DataEnCrypto) [GitLab](https://gitlab.com/nishedcob/DataEnCrypto)
