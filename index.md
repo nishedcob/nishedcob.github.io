@@ -7,7 +7,11 @@ DevOps Engineer / Data Scientist / \*NIX Backend Developer
 
 **Full Open Source Stack**
 
-### PRE-PROFESSIONAL EXPERIENCE
+### PROFESSIONAL EXPERIENCE
+
+#### **ioet,** Loja, Ecuador — *Member of Technical Staff*
+##### May 2018 - PRESENT
+Developer of tools to help multiple Dev teams working on different projects be more productive. Maintainer of staging and production infrastructure. DevOps Engineer working on getting automated CI/CD workflows into place. Client facing engineer and team representative. Auditor of serious bugs and issues, designer of high level solutions. Backend developer.
 
 #### **Nodo / Electritelecom,** Loja, Ecuador — *Principal DevOps Engineer*
 ##### March 2018 - PRESENT
