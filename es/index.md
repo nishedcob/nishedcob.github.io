@@ -9,9 +9,9 @@ Ingeniero de DevOps / Cientifico de Datos / Desarrollado de Backend en sistemas 
 
 ### EXPERIENCIA PROFESSIONAL
 
-#### **ioet,** Loja, Ecuador — *Member of Technical Staff*
-##### May 2018 - PRESENTE
-Desarrollador de herramientas para ayudar distintas equipos de desarrollo, trabajando en distintos proyectos ser mas productivos. Mantenedor de infrastructura de ambientes de staging y producción. Ingeniero de DevOps que trabaja en implementar flujos de trabajo automatizados para integracion y despliegue continua. Ingeniero con interaccion directo con el cliente, representate del equipo. Auditor de problemas serios, diseñador de soluciones de alto nivel. Desarrollador de backend.
+#### **ioet,** Loja, Ecuador — *Miembro del Personal Técnico*
+##### Mayo 2018 - PRESENTE
+Desarrollador de herramientas para ayudar distintos equipos de desarrollo, quienes están trabajando en distintos proyectos, ayudándoles a ser más productivos. Mantenimiento de infraestructura de ambientes de staging y producción. Ingeniero de DevOps que trabaja en implementar flujos de trabajo automatizados para integración y despliegue continuo. Ingeniero con interacción directa con el cliente, representante del equipo. Auditor de problemas graves, diseñador de soluciones de alto nivel. Desarrollador de backend.
 
 #### **Nodo / Electritelecom,** Loja, Ecuador — *Ingeniero de DevOps Principal*
 ##### Marzo 2018 - PRESENTE
@@ -118,7 +118,8 @@ Administrador de Sistemas con:
   - IBM Softlayer
   - Linode
   - DigitalOcean
-  - Google Cloud
+  - Google Cloud Platform
+  - Amazon Web Services
 
 Administrador de Bases de Datos con:
 - Experiencia SQL en:

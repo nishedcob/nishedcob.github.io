@@ -116,7 +116,8 @@ Systems Administrator with:
   - IBM Softlayer
   - Linode
   - DigitalOcean
-  - Google Cloud
+  - Google Cloud Platform
+  - Amazon Web Services
 
 Database Administrator with:
 - SQL Experience in:
