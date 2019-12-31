@@ -3,7 +3,7 @@ FROM debian:stretch
 
 RUN apt-get update
 
-RUN apt-get install -y ruby ruby-dev ruby-bundler build-essential zlib1g-dev
+RUN apt-get install -y ruby ruby-dev ruby-bundler build-essential zlib1g-dev libcurl4-openssl-dev
 
 ADD Gemfile .
 ADD Gemfile.lock .
