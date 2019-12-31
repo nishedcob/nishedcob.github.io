@@ -172,13 +172,6 @@ Modelado 3D con:
 ### IDIOMAS
 Inglés (hablante nativo), Español (Dominio avanzado)
 
-
-### PROYECTOS ACTUALES
-**ISP Servicio de Video** - Servicio de streaming de video dentro del WAN local de un ISP, utilizando Django, Gunicorn, PostgreSQL y NGinX. Despliegue automatizado con un Playbook de Ansible.
-
-**GitEDU-Ansible** — Automatizar despliegue y configuración de tesis de ingeniería con una playbook de Ansible (GitEDU + EduNube + GitServerHTTPEndpoint). Inicialmente se ocupaba un imagen de Docker de Debian con SSH para pruebas, ahora se utiliza un Vagrantfile de Debian. Código en: [GitLab](https://gitlab.com/nishedcob/GitEDU-Ansible) [GitHub](https://github.com/nishedcob/GitEDU-Ansible)
-
-
 ### PROYECTOS
 #### **ISP Servicio de Video** - *Automatizar Despliegue y Configuración de Servicio de Streaming de Video*
 Servicio de streaming de video dentro del WAN local de un ISP, utilizando Django, Gunicorn, PostgreSQL y NGinX. Despliegue automatizado con un Playbook de Ansible.
