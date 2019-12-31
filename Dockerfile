@@ -1,5 +1,7 @@
 
-FROM ruby:2.4
+FROM debian:stretch
+
+RUN apt-get install -y ruby ruby-dev build-essential
 
 ADD Gemfile .
 ADD Gemfile.lock .
