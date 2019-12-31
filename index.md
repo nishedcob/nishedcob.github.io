@@ -166,10 +166,6 @@ Some Project Management Experience especially with:
  - years of experience in Trimble (formerly Google) Sketchup
  - months of experience in OpenSCAD
 
-Some 3D Printing experience with:
- - PLA plastic
- - Kossel type printers
-
 ### HUMAN LANGUAGES
 English (native speaker), Spanish (fluent)
 
