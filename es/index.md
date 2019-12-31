@@ -9,20 +9,37 @@ Ingeniero de DevOps / Cientifico de Datos / Desarrollado de Backend en sistemas 
 
 ### EXPERIENCIA PROFESSIONAL
 
-#### **ioet,** Loja, Ecuador — *Miembro del Personal Técnico*
-##### Mayo 2018 - PRESENTE
+#### **ioet,** Loja, Ecuador — *Lider Tecnico de un Equipo de Ingenieria de Lanzamiento y DevOps*
+##### Marzo 2019 - PRESENTE
+Estandarización de processos de Ingeniería de Lanzamiento para un proyecto y ser el
+portero de código de producción. Mantenimiento de DevOps, operaciones diarias y
+automaización de procesos comunes, incluyendo el desarrollo de nuevas herramientas.
+Ingeniería de Nube ademas de planificación como Arquitecto de Nube y mantenimiento
+contínuo de dicha infraestructura en la nube sobre el curso de su ciclo de vida e
+evolución contínua. Gestión de Proyectos para mi equipo de ingenieros de DevOps,
+incluyendo planificación a través de roadmaps, escritura de tickets para trabajos/tareas
+pendientes, comunicación de logros y trabajo con otros equipos y el cliente. Implementación
+de un ciclo de vida de GitOps para entregas. Mejoras al seguridad del producto bajo
+un modelo de DevSecOps. Automatización de partes del ciclo de desarrollo con CI/CD.
+
+#### **ioet,** Loja, Ecuador — *Ingeniero de Nube Principal*
+##### Diciembre 2018 - Marzo 2019
+Dada la tarea de escribir desde cero todo la infraestructura de un proyecto como código previo a que se lance para clientes adicionales.
+
+#### **ioet,** Loja, Ecuador — *Ingeniero de DevOps Principal*
+##### Mayo 2018 - Marzo 2019
 Desarrollador de herramientas para ayudar distintos equipos de desarrollo, quienes están trabajando en distintos proyectos, ayudándoles a ser más productivos. Mantenimiento de infraestructura de ambientes de staging y producción. Ingeniero de DevOps que trabaja en implementar flujos de trabajo automatizados para integración y despliegue continuo. Ingeniero con interacción directa con el cliente, representante del equipo. Auditor de problemas graves, diseñador de soluciones de alto nivel. Desarrollador de backend.
 
 #### **Nodo / Electritelecom,** Loja, Ecuador — *Ingeniero de DevOps Principal*
-##### Marzo 2018 - PRESENTE
+##### Marzo 2018 - Diciembre 2018
 Encargado de automatizar integracion continua para Proyecto de Video para un Proveedor de Internet.
 
 #### **Nodo / Electritelecom,** Loja, Ecuador — *Arquitecto Principal para Despliegue de Sistemas*
-##### Marzo 2018 - PRESENTE
+##### Marzo 2018 - Diciembre 2018
 Encargado de la arquitectura de despliegue a todos los servidores relacionados al Proyecto de Video para un Proveedor de Internet.
 
 #### **Nodo / Electritelecom,** Loja, Ecuador — *Administrator de Sistemas Principal*
-##### March 2018 - PRESENT
+##### March 2018 - Diciembre 2018
 Encargado de seguridad de servidores y despliegues a los mismos con todos los servidores involucrados en el Proyecto de Video para un Proveedor de Internet.
 
 #### **CIDSecure,** Loja, Ecuador — *Arquitecto Principal para Despliegue de Sistemas*
