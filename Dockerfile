@@ -1,7 +1,9 @@
 
 FROM debian:stretch
 
-RUN apt-get install -y ruby ruby-dev build-essential
+RUN apt-get update
+
+RUN apt-get install -y ruby ruby-dev ruby-bundler build-essential zlib1g-dev
 
 ADD Gemfile .
 ADD Gemfile.lock .
