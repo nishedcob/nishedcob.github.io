@@ -9,20 +9,36 @@ DevOps Engineer / Data Scientist / \*NIX Backend Developer
 
 ### PROFESSIONAL EXPERIENCE
 
-#### **ioet,** Loja, Ecuador — *Member of Technical Staff*
-##### May 2018 - PRESENT
+#### **ioet,** Loja, Ecuador — *Release / DevOps Engineer Tech Lead*
+##### March 2019 - PRESENT
+Standardization of Release Engineering for project as well as Gatekeeper of Production code.
+DevOps maintenance, day to day operations and automation including writing tools for common
+processes. Cloud Engineering as well as planning as Cloud Architect and continual
+maintenance of said Cloud Infrastructure over the course of its lifespan and evolution.
+Project Management for my team of DevOps engineers including planning work via roadmaps,
+writing tickets for pending tasks/work, communication of accomplishments and work with
+other teams and client. Implementation of a GitOps life cycle for releases. Improvements
+to product security under a DevSecOps model. Automation of parts of the development
+lifecycle with CI/CD.
+
+#### **ioet,** Loja, Ecuador — *Principal Cloud Engineer*
+##### December 2018 - March 2019
+Tasked with a total rewrite of Project Infrastructure as Code prior to a major rollout to additional customers.
+
+#### **ioet,** Loja, Ecuador — *Principal DevOps Engineer*
+##### May 2018 - March 2019
 Developer of tools to help multiple Dev teams working on different projects be more productive. Maintainer of staging and production infrastructure. DevOps Engineer working on getting automated CI/CD workflows into place. Client facing engineer and team representative. Auditor of serious bugs and issues, designer of high level solutions. Backend developer.
 
 #### **Nodo / Electritelecom,** Loja, Ecuador — *Principal DevOps Engineer*
-##### March 2018 - PRESENT
+##### March 2018 - December 2018
 In charge of automating Continuous Integration in ISP Video Project.
 
 #### **Nodo / Electritelecom,** Loja, Ecuador — *Principal Systems Deployment Architect*
-##### March 2018 - PRESENT
+##### March 2018 - December 2018
 In charge of architecture in deployments to all servers related to ISP Video Project.
 
 #### **Nodo / Electritelecom,** Loja, Ecuador — *Principal Systems Administrator*
-##### March 2018 - PRESENT
+##### March 2018 - December 2018
 In charge of server security and deployments to all servers related to ISP Video Project.
 
 #### **CIDSecure,** Loja, Ecuador — *Principal Systems Deployment Architect*
