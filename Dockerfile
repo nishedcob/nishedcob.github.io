@@ -8,8 +8,6 @@ RUN bundle install
 
 ADD . .
 
-RUN bundle exec jekyll build --verbose --trace
+RUN jekyll build --verbose --trace --incremental
 
-ENTRYPOINT bundle
-
-CMD [ "exec", "jekyll", "serve" ]
+CMD [ "jekyll", "serve", "--verbose", "--trace", "--port", "8080", "--incremental", "--host", "0.0.0.0" ]
