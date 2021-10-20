@@ -1,3 +1,8 @@
+argcomplete==1.12.3
 Jinja2==3.0.2
 MarkupSafe==2.0.1
 -e git+https://github.com/sspreitzer/ninja2@59648059003ffcaba066f03286a0326c923df4c9#egg=ninja2
+PyYAML==6.0
+toml==0.10.2
+xmltodict==0.12.0
+yq==2.12.2
