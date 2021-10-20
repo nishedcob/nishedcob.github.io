@@ -12,6 +12,6 @@ RUN bundle install
 
 ADD . .
 
-RUN timeout 60s jekyll build --verbose --trace
+RUN timeout 60s jekyll build --verbose --trace || true
 
 CMD [ "jekyll", "serve", "--verbose", "--trace", "--port", "8080", "--incremental", "--host", "0.0.0.0" ]
