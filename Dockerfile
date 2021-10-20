@@ -1,17 +1,12 @@
 
-FROM debian:stretch
-
-RUN apt-get update
-
-RUN apt-get install -y ruby ruby-dev ruby-bundler build-essential zlib1g-dev libcurl4-openssl-dev
+FROM jekyll/jekyll
 
 ADD Gemfile .
-ADD Gemfile.lock .
 
+RUN chown -R jekyll:jekyll .
+
+RUN gem install bundler:1.16.1
 RUN bundle install
 
-ADD . .
+RUN chown -R jekyll:jekyll /usr/gem/cache/bundle
 
-RUN timeout 60s jekyll build --verbose --trace
-
-CMD [ "jekyll", "serve", "--verbose", "--trace", "--port", "8080", "--incremental", "--host", "0.0.0.0" ]
