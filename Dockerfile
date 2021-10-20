@@ -1,5 +1,5 @@
 
-FROM jekyll/jekyll
+FROM jekyll/jekyll:4.0
 
 ADD Gemfile .
 
