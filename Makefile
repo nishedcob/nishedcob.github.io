@@ -8,7 +8,7 @@ build:
 	docker build -t nishedcob/nishedcob.github.io:dev .
 
 run: build
-	docker run --rm nishedcob/nishedcob.github.io:dev
+	docker run --rm --volume="$$PWD:/srv/jekyll" --publish '[::1]:4000:4000' nishedcob/nishedcob.github.io:dev jekyll serve
 
 clean:
 	docker rmi nishedcob/nishedcob.github.io:dev
