@@ -4,6 +4,9 @@ help:
 	@echo "run   - Run Development Docker Image"
 	@echo "clean - Delete Development Docker Image"
 
+build_templater:
+	docker build --file Dockerfile.templater -t nishedcob/nishedcob.github.io:templater .
+
 build:
 	docker build -t nishedcob/nishedcob.github.io:dev .
 
