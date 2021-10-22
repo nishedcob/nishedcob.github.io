@@ -26,6 +26,7 @@ lang_switch: "[Revisar en Español](/es/)"
 email: nishedcob (at) gmail (dot) com
 subtitle: DevOps Engineer / Data Scientist / \*NIX Backend Developer
 subsubtitle: Full Open Source Stack
+professional_exp_title: PROFESSIONAL EXPERIENCE
 professional_exp:
 - <<: *IOET
   title: Release / DevOps Engineer Tech Lead
@@ -105,6 +106,7 @@ professional_exp:
   time_range: October 2015 - March 2016
   description: |
     Organized educational events and people who participated.
+education_title: EDUCATION
 education:
 - institution: Universidad Técnica Particular de Loja (UTPL)
   location: *LOJA
