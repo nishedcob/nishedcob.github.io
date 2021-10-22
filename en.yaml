@@ -1,0 +1,100 @@
+
+companies:
+  ioet: &IOET
+    company: ioet
+    location: &LOJA Loja, Ecuador
+  node: &NODE
+    company: Nodo / Electritelecom
+    location: *LOJA
+  cidsecure: &CIDS
+    company: CIDSecure
+    location: *LOJA
+  nodo+cidsecure: &NCIDS
+    company: Nodo / Electritelecom with CIDSecure
+    location: *LOJA
+  ieee_comp_soc_utpl: &IEEE_CS_UTPL
+    company: IEEE Computer Society UTPL Chapter
+    location: *LOJA
+lang_switch: "[Revisar en Español](/es/)"
+email: nishedcob (at) gmail (dot) com
+subtitle: DevOps Engineer / Data Scientist / \*NIX Backend Developer
+subsubtitle: Full Open Source Stack
+professional_exp:
+- <<: *IOET
+  title: Release / DevOps Engineer Tech Lead
+  time_range: March 2019 - PRESENT
+  description: |
+    Standardization of Release Engineering for project as well as Gatekeeper of Production code.
+    DevOps maintenance, day to day operations and automation including writing tools for common
+    processes. Cloud Engineering as well as planning as Cloud Architect and continual
+    maintenance of said Cloud Infrastructure over the course of its lifespan and evolution.
+    Project Management for my team of DevOps engineers including planning work via roadmaps,
+    writing tickets for pending tasks/work, communication of accomplishments and work with
+    other teams and client. Implementation of a GitOps life cycle for releases. Improvements
+    to product security under a DevSecOps model. Automation of parts of the development
+    lifecycle with CI/CD.
+- <<: *IOET
+  title: Principal Cloud Engineer
+  time_range: December 2018 - March 2019
+  description: |
+    Tasked with a total rewrite of Project Infrastructure as Code prior to a major rollout to additional customers.
+- <<: *IOET
+  title: &MAIN_DEVOPS Principal DevOps Engineer
+  time_range: May 2018 - March 2019
+  description: |
+    Developer of tools to help multiple Dev teams working on different projects be more productive. Maintainer of staging and production infrastructure. DevOps Engineer working on getting automated CI/CD workflows into place. Client facing engineer and team representative. Auditor of serious bugs and issues, designer of high level solutions. Backend developer.
+- <<: *NODE
+  title: *MAIN_DEVOPS
+  time_range: &NODE_ISPVP_TF March 2018 - December 2018
+  description: |
+    In charge of automating Continuous Integration in ISP Video Project.
+- <<: *NODE
+  title: &MAIN_DEP_ARCH Principal Systems Deployment Architect
+  time_range: *NODE_ISPVP_TF
+  description: |
+    In charge of architecture in deployments to all servers related to ISP Video Project.
+- <<: *NODE
+  title: &MAIN_SYSADMIN Principal Systems Administrator
+  time_range: *NODE_ISPVP_TF
+  description: |
+    In charge of server security and deployments to all servers related to ISP Video Project.
+- <<: *CIDS
+  title: *MAIN_DEP_ARCH
+  time_range: &MUBER November 2016 - October 2017
+  description: |
+    In charge of architecture in deployments to all servers related to project MUBER.
+- <<: *CIDS
+  title: *MAIN_SYSADMIN
+  time_range: *MUBER
+  description: |
+    In charge of server security and deployments to all servers related to project MUBER.
+- <<: *NCIDS
+  title: *MAIN_DEP_ARCH
+  time_range: November 2016 - October 2017
+  description: |
+    In charge of architecture in deployments to all servers related to project GOODAPPETIT.
+- <<: *NCIDS
+  title: *MAIN_SYSADMIN
+  time_range: June 2016 - October 2017
+  description: |
+    In charge of server security and deployments to all servers related to project GOODAPPETIT.
+- <<: *NCIDS
+  title: &MAIN_DBA Principal Database Administrator
+  time_range: February 2016 - October 2017
+  description: |
+    General consultant for bug fixes and other issues (at a database level), Principal player in final database design, Worked on database level development such as triggers, procedures, data integrity and application security for GOODAPPETIT.
+- <<: *NCIDS
+  title: &DJANGO_DEV Python / Django Backend Developer and Analyst
+  time_range: February 2016 - August 2016
+  description: |
+    General consultant for bug fixes and other issues (at a application level), Principal player in design of general application internals, Worked on authentication, permission and security systems in addition to Research and Development for GOODAPPETIT.
+- <<: *NODE
+  title: &JAVA_DEV Java Programmer / Analyst
+  time_range: September 2015 - February 2016
+  description: |
+    Worked on facial recognition system with OpenCV and IP Cameras built by Tiandy.
+- <<: *IEEE_CS_UTPL
+  title: &VP Vice President
+  time_range: October 2015 - March 2016
+  description: |
+    Organized educational events and people who participated.
