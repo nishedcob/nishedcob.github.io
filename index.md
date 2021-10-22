@@ -65,11 +65,11 @@ General consultant for bug fixes and other issues (at a database level), Princip
 ##### February 2016 - August 2016
 General consultant for bug fixes and other issues (at a application level), Principal player in design of general application internals, Worked on authentication, permission and security systems in addition to Research and Development for GOODAPPETIT.
 
-#### **Nodo / Electritelecom**, Loja — *Java Programmer / Analyst*
+#### **Nodo / Electritelecom,** Loja, Ecuador — *Java Programmer / Analyst*
 ##### September 2015 - February 2016
 Worked on facial recognition system with OpenCV and IP Cameras built by Tiandy.
 
-#### **IEEE Computer Society UTPL Chapter,** Loja — *Vice President*
+#### **IEEE Computer Society UTPL Chapter,** Loja, Ecuador — *Vice President*
 ##### October 2015 - March 2016
 Organized educational events and people who participated.
 
