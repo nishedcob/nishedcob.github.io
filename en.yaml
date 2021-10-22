@@ -1,8 +1,10 @@
 
+locations:
+  loja: &LOJA Loja, Ecuador
 companies:
   ioet: &IOET
     company: ioet
-    location: &LOJA Loja, Ecuador
+    location: *LOJA
   node: &NODE
     company: Nodo / Electritelecom
     location: *LOJA
