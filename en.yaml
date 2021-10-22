@@ -1,6 +1,7 @@
 
 locations:
   loja: &LOJA Loja, Ecuador
+  boulder: &BOULDER Boulder, Colorado, United States
 companies:
   ioet: &IOET
     company: ioet
@@ -17,6 +18,10 @@ companies:
   ieee_comp_soc_utpl: &IEEE_CS_UTPL
     company: IEEE Computer Society UTPL Chapter
     location: *LOJA
+edu_catalog:
+  high_school: &EDU_HS
+    location: *BOULDER
+    degree: High School
 lang_switch: "[Revisar en Español](/es/)"
 email: nishedcob (at) gmail (dot) com
 subtitle: DevOps Engineer / Data Scientist / \*NIX Backend Developer
@@ -100,3 +105,20 @@ professional_exp:
   time_range: October 2015 - March 2016
   description: |
     Organized educational events and people who participated.
+education:
+- institution: Universidad Técnica Particular de Loja (UTPL)
+  location: *LOJA
+  degree: Computer Science Engineer
+  time_range: September 2012 - February 2018
+  description: |
+    Broad experience in many facets of Computer Science; system analysis, programming, artificial intelligence and artificial vision, database design and administration, networking, parallel computing, project management and computer architecture design.
+- institution: Boulder Universal
+  <<: *EDU_HS
+  time_range: September 2011 - May 2012
+  description: |
+    Finished High School as a Distance Student in Cuenca, Ecuador.
+- institution: Fairview High School
+  <<: *EDU_HS
+  time_range: September 2008 - May 2011
+  description: |
+    High School studies with a greater focus on Math, Science and World History.
