@@ -124,3 +124,91 @@ education:
   time_range: September 2008 - May 2011
   description: |
     High School studies with a greater focus on Math, Science and World History.
+skills_title: SKILLS
+skills:
+- title: Backend Programmer and Analyst with Experience in
+  list:
+  - C
+  - Python
+  - Java
+  - Bash
+  - PHP
+- title: Systems Administrator with
+  list:
+  - title: OS Experience in
+    sublist:
+    - Debian
+    - CentOS
+    - Ubuntu
+    - Fedora
+    - Archlinux
+    - Xen (with Debian as Dom0)
+    - QubesOS (Xen with Fedora as Dom0)
+    - pfSense
+  - title: Cluster Experience with
+    sublist:
+    - PelicanHPC
+    - Rocks
+  - title: Application Experience with
+    sublist:
+    - NGinX
+    - uWSGI
+    - Gunicorn
+    - Docker (Docker-Compose and Docker-Swarm)
+    - Kubernetes
+    - Ansible
+    - ProFTPD
+    - HTCondor
+    - CronD
+    - SystemD
+    - SELinux
+    - Fail2Ban
+    - OpenSSH
+    - OpenVPN
+    - GitLab CE
+    - GitWeb
+    - SSLH
+    - Moodle
+  - title: Providers Experience
+    sublist:
+    - Physical Servers
+    - Microsoft Azure
+    - IBM Softlayer
+    - Linode
+    - DigitalOcean
+    - Google Cloud Platform
+    - Amazon Web Services
+- title: Database Administrator with
+  list:
+  - title: SQL Experience in
+    sublist:
+    - PostgreSQL
+    - MySQL/MariaDB
+    - Relational Database Design
+  - title: NoSQL experience with
+    sublist:
+    - Neo4J
+    - MongoDB
+    - Redis
+  - title: Triplestore Experience with
+    sublist:
+    - title: Datamapping as
+      subsublist:
+      - RDF
+      - N-Triples
+    - DBPedia queries via SPARQL
+    - OpenLink Virtuoso
+- title: Systems Deployment Architect for the design and implementation of high level deployment and maintenance plans of N-Level Systems across M-Tiers that provide quality attributes including
+  list:
+  - Portability
+  - Scalability
+  - Security
+- title: Limited experience with design and implementation of SOA and Microservices Architectures
+- title: Some Project Management Experience especially with
+  list:
+  - Function Point based Cost/Time Estimations
+  - Earned Value Management progress estimations
+- title: 3D Modeling with
+  list:
+  - years of experience in Trimble (formerly Google) Sketchup
+  - months of experience in OpenSCAD
