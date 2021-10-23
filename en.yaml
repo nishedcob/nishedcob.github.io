@@ -212,3 +212,9 @@ skills:
   list:
   - years of experience in Trimble (formerly Google) Sketchup
   - months of experience in OpenSCAD
+human_lang_title: HUMAN LANGUAGES
+human_lang:
+- lang: English
+  level: native speaker
+- lang: Spanish
+  level: fluent
