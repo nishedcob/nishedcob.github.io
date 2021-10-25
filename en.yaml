@@ -218,3 +218,16 @@ human_lang:
   level: native speaker
 - lang: Spanish
   level: fluent
+projects_title: PROJECTS
+projects:
+- name: ISP Video Service
+  summary: Automate Deployment and Configuration of Video Streaming Service
+  description: |
+    Video streaming service on ISP's local WAN, using Django, Gunicorn, PostgreSQL and NGinX. Deployment automated with Ansible Playbook.
+- name: GitEDU-Ansible
+  summary: Automate Deployment and Configuration of Engineering Thesis
+  description: |
+    Ansible playbook for deploying engineering thesis (GitEDU + EduNube + GitServerHTTPEndpoint). Was initially using Debian Docker SSH image for testing, now using Debian Vagrantfile.
+  code:
+    gitlab: nishedcob/GitEDU-Ansible
+    github: nishedcob/GitEDU-Ansible
