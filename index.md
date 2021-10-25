@@ -159,12 +159,12 @@ Systems Deployment Architect for the design and implementation of high level dep
 Limited experience with design and implementation of SOA and Microservices Architectures.
 
 Some Project Management Experience especially with:
- - Function Point based Cost/Time Estimations
- - Earned Value Management progress estimations
+- Function Point based Cost/Time Estimations
+- Earned Value Management progress estimations
 
 3D Modeling with:
- - years of experience in Trimble (formerly Google) Sketchup
- - months of experience in OpenSCAD
+- years of experience in Trimble (formerly Google) Sketchup
+- months of experience in OpenSCAD
 
 ### HUMAN LANGUAGES
 English (native speaker), Spanish (fluent)
