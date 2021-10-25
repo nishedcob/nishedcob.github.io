@@ -173,8 +173,9 @@ English (native speaker), Spanish (fluent)
 #### **ISP Video Service** - *Automate Deployment and Configuration of Video Streaming Service*
 Video streaming service on ISP's local WAN, using Django, Gunicorn, PostgreSQL and NGinX. Deployment automated with Ansible Playbook.
 
-#### **GitEDU-Ansible** — *Automate Deployment and Configuration of Engineering Thesis*
-Ansible playbook for deploying engineering thesis (GitEDU + EduNube + GitServerHTTPEndpoint). Was initially using Debian Docker SSH image for testing, now using Debian Vagrantfile. Code at: [GitLab](https://gitlab.com/nishedcob/GitEDU-Ansible) [GitHub](https://github.com/nishedcob/GitEDU-Ansible)
+#### **GitEDU-Ansible** - *Automate Deployment and Configuration of Engineering Thesis*
+Ansible playbook for deploying engineering thesis (GitEDU + EduNube + GitServerHTTPEndpoint). Was initially using Debian Docker SSH image for testing, now using Debian Vagrantfile.
+Code at: [GitLab](https://gitlab.com/nishedcob/GitEDU-Ansible) [GitHub](https://github.com/nishedcob/GitEDU-Ansible)
 
 #### **Docker SSH** — *Lightweight containers for testing deployments*
 At the moment, only a Debian based Docker image that runs sshd with supervisord, for initial testing with Ansible or other orchestration frameworks. Code at: [GitLab](https://gitlab.com/nishedcob/docker-ssh) [GitHub](https://github.com/nishedcob/docker-ssh)
