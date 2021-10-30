@@ -18,8 +18,8 @@ Consejos diarios y asesoramiento de DevOps para ingenieros de DevOps junior y as
 Desarrollador de Backend en NodeJS para una plataforma de eCommerce.
 
 #### **ioet,** Loja, Ecuador — *Líder Técnico de un Equipo de Ingeniería de Lanzamiento y DevOps*
-##### Marzo 2019 - PRESENTE
-Estandarización de procesos de Ingeniería de Lanzamiento para un proyecto y ser el portero de código de producción. Mantenimiento de DevOps, operaciones diarias y automatización de procesos comunes, incluyendo el desarrollo de nuevas herramientas. Ingeniería de Nube además de planificación como Arquitecto de Nube y mantenimiento continuo de dicha infraestructura en la nube sobre el curso de su ciclo de vida y evolución continua. Gestión de Proyectos para mi equipo de ingenieros de DevOps, incluyendo planificación a través de roadmaps, escritura de tickets para trabajos/tareas pendientes, comunicación de logros y trabajo con otros equipos y el cliente. Implementación de un ciclo de vida de GitOps para entregas. Mejoras al seguridad del producto bajo un modelo de DevSecOps. Automatización de partes del ciclo de desarrollo con CI/CD.
+##### Marzo 2019 - Diciembre 2020
+Estandarización de procesos de Ingeniería de Lanzamiento para un proyecto y ser el portero de código de producción. Mantenimiento de DevOps, operaciones diarias y automatización de procesos comunes, incluyendo el desarrollo de nuevas herramientas. Ingeniería de Nube además de planificación como Arquitecto de Nube y mantenimiento continuo de dicha infraestructura en la nube sobre el curso de su ciclo de vida y evolución continua. Gestión de Proyectos para mi equipo de ingenieros de DevOps, incluyendo planificación a través de roadmaps, escritura de tickets para trabajos/tareas pendientes, comunicación de logros y trabajo con otros equipos y el cliente. Implementación de un ciclo de vida de GitOps para entregas. Mejoras en la seguridad del producto bajo un modelo de DevSecOps. Automatización de partes del ciclo de desarrollo con CI/CD.
 
 #### **ioet,** Loja, Ecuador — *Ingeniero de Nube Principal*
 ##### Diciembre 2018 - Marzo 2019
