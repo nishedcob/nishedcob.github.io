@@ -9,6 +9,14 @@ DevOps Engineer / Data Scientist / \*NIX Backend Developer
 
 ### PROFESSIONAL EXPERIENCE
 
+#### **ioet,** Loja, Ecuador — *Senior DevOps Adviser*
+##### September 2020 - PRESENT
+Daily DevOps Advice and Mentoring for Junior and Aspiring DevOps Engineers.
+
+#### **ioet,** Loja, Ecuador — *Javascript Developer*
+##### December 2020 - PRESENT
+NodeJS Backend Developer for an eCommerce platform.
+
 #### **ioet,** Loja, Ecuador — *Release / DevOps Engineer Tech Lead*
 ##### March 2019 - PRESENT
 Standardization of Release Engineering for project as well as Gatekeeper of Production code.
