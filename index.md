@@ -9,15 +9,23 @@ DevOps Engineer / Data Scientist / \*NIX Backend Developer
 
 ### PROFESSIONAL EXPERIENCE
 
+#### **ioet,** Loja, Ecuador — *Senior DevOps Adviser*
+##### September 2020 - PRESENT
+Daily DevOps Advice and Mentoring for Junior and Aspiring DevOps Engineers.
+
+#### **ioet,** Loja, Ecuador — *Javascript Developer*
+##### December 2020 - PRESENT
+NodeJS Backend Developer for an eCommerce platform.
+
 #### **ioet,** Loja, Ecuador — *Release / DevOps Engineer Tech Lead*
-##### March 2019 - PRESENT
-Standardization of Release Engineering for project as well as Gatekeeper of Production code.
+##### March 2019 - December 2020
+Standardization of Release Engineering for the project as well as Gatekeeper of Production code.
 DevOps maintenance, day to day operations and automation including writing tools for common
-processes. Cloud Engineering as well as planning as Cloud Architect and continual
+processes. Cloud Engineering as well as planning as a Cloud Architect and continual
 maintenance of said Cloud Infrastructure over the course of its lifespan and evolution.
 Project Management for my team of DevOps engineers including planning work via roadmaps,
 writing tickets for pending tasks/work, communication of accomplishments and work with
-other teams and client. Implementation of a GitOps life cycle for releases. Improvements
+other teams and the client. Implementation of a GitOps life cycle for releases. Improvements
 to product security under a DevSecOps model. Automation of parts of the development
 lifecycle with CI/CD.
 
