@@ -1,6 +1,7 @@
 
 JINJA_IMAGE=nishedcob/nishedcob.github.io:templater
 JEKYLL_IMAGE=nishedcob/nishedcob.github.io:dev
+TEXLIVE_IMAGE=texlive/texlive:TL2020-historic
 
 ## help |-| Display this help message
 help: Makefile
@@ -23,13 +24,28 @@ index.md: en.yaml universal.yaml index.md.j2
 es/index.md: es.yaml universal.yaml index.md.j2
 	$(MAKE) run_templater CMD="es" JINJA_IMAGE=$(JINJA_IMAGE)
 
-## ci |-| Build index.md and es/index.md
+## run_latex_builder |-| Run LaTeX Compiler Docker Image
+run_latex_builder: CMD=""
+run_latex_builder:
+	docker run --rm -it --volume="$$PWD:/src/doc" $(TEXLIVE_IMAGE) /src/doc/latex_build.sh $(CMD)
+
+## main.pdf |-| Build main.pdf
+main.pdf: main.tex
+	$(MAKE) run_latex_builder CMD="en" TEXLIVE_IMAGE=$(TEXLIVE_IMAGE)
+
+## es/main.pdf |-| Build es/main.pdf
+es/main.pdf: es/main.tex
+	$(MAKE) run_latex_builder CMD="es" TEXLIVE_IMAGE=$(TEXLIVE_IMAGE)
+
+## ci |-| Build index.md, main.pdf, es/index.md and es/main.pdf
 ci:
 	$(MAKE) run_templater CMD="ci" JINJA_IMAGE=$(JINJA_IMAGE)
+	$(MAKE) run_latex_builder CMD="ci" TEXLIVE_IMAGE=$(TEXLIVE_IMAGE)
 
-## all |-| Build index.md and es/index.md
+## all |-| Build index.md, main.pdf, es/index.md and es/main.pdf
 all:
 	$(MAKE) run_templater CMD="all" JINJA_IMAGE=$(JINJA_IMAGE)
+	$(MAKE) run_latex_builder CMD="all" TEXLIVE_IMAGE=$(TEXLIVE_IMAGE)
 
 ## build |-| Build Development Docker Image
 build:
