@@ -37,6 +37,19 @@ main.pdf: main.tex
 es/main.pdf: es/main.tex
 	$(MAKE) run_latex_builder CMD="es" TEXLIVE_IMAGE=$(TEXLIVE_IMAGE)
 
+## build_lang |-| Build a specific language (LANG)
+build_lang:
+	$(MAKE) run_templater CMD="$(LANG)" JINJA_IMAGE=$(JINJA_IMAGE)
+	$(MAKE) run_latex_builder CMD="$(LANG)" TEXLIVE_IMAGE=$(TEXLIVE_IMAGE)
+
+## lang_en |-| Build English files
+lang_en:
+	$(MAKE) build_lang LANG="en" JINJA_IMAGE=$(JINJA_IMAGE) TEXLIVE_IMAGE=$(TEXLIVE_IMAGE)
+
+## lang_es |-| Build Spanish Files
+lang_es:
+	$(MAKE) build_lang LANG="es" JINJA_IMAGE=$(JINJA_IMAGE) TEXLIVE_IMAGE=$(TEXLIVE_IMAGE)
+
 ## ci |-| Build index.md, main.pdf, es/index.md and es/main.pdf
 ci:
 	$(MAKE) run_templater CMD="ci" JINJA_IMAGE=$(JINJA_IMAGE)
