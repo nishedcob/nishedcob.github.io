@@ -24,6 +24,13 @@ edu_catalog:
     degree: High School
 lang_switch: "[Revisar en Español](/es/)"
 email: nishedcob (at) gmail (dot) com
+short_subtitle: Senior DevOps Engineer
+whoami: |
+  Experienced Senior DevOps Engineer with a demonstrated history of working in the computer software industry.
+  Skilled in Linux System Administration, AWS/Cloud Management, Kubernetes, Docker, Databases, System Deployment,
+  Ansible, IaC, etc. Strong engineering professional with a Engineer's degree focused in Computer Science from
+  Universidad Técnica Particular de Loja. Firm believer in GitOps as the future of Operations Management for
+  organizations of all shapes and sizes.
 subtitle: DevOps Engineer / Data Scientist / \*NIX Backend Developer
 subsubtitle: Full Open Source Stack
 professional_exp_title: PROFESSIONAL EXPERIENCE
@@ -31,14 +38,24 @@ professional_exp:
 - <<: *IOET
   title: Senior DevOps Adviser
   time_range: September 2020 - PRESENT
+  abbr_time_range: 9/2020 \\- PRESENT
   description: Daily DevOps Advice and Mentoring for Junior and Aspiring DevOps Engineers.
 - <<: *IOET
   title: Javascript Developer
   time_range: December 2020 - PRESENT
+  abbr_time_range: 12/2020 \\- PRESENT
   description: NodeJS Backend Developer for an eCommerce platform.
+  keywords:
+    - node.js
+    - Docker
+    - docker-compose
+    - MySQL
+    - Redis
+    - AWS (Lambda, ECS, CloudFormation)
 - <<: *IOET
   title: Release / DevOps Engineer Tech Lead
   time_range: March 2019 - December 2020
+  abbr_time_range: 3/2019 - 12/2020
   description: |
     Standardization of Release Engineering for the project as well as Gatekeeper of Production code.
     DevOps maintenance, day to day operations and automation including writing tools for common
@@ -49,87 +66,189 @@ professional_exp:
     other teams and the client. Implementation of a GitOps life cycle for releases. Improvements
     to product security under a DevSecOps model. Automation of parts of the development
     lifecycle with CI/CD.
+  keywords:
+    - GitOps
+    - AWS (ECS, EKS, EC2, ELB, Secrets Manager, S3, KMS, RDS, Lambda, CodeBuild, CloudFormation)
+    - Terraform
+    - SOPS
+    - CI/CD
+    - Kubernetes
+    - istio
+    - Docker
+    - Python
+    - node.js
+    - MongoDB
+    - Neo4j
+    - PostgreSQL
+    - Amazon Linux
 - <<: *IOET
   title: Principal Cloud Engineer
   time_range: December 2018 - March 2019
+  abbr_time_range: 12/2018 - 3/2019
   description: |
     Tasked with a total rewrite of Project Infrastructure as Code prior to a major rollout to additional customers.
+  keywords:
+    - AWS (ECS, EC2, ELB, CodeBuild, CloudFormation)
+    - CI
+    - Docker
+    - Python
+    - node.js
+    - MongoDB
+    - Amazon Linux
 - <<: *IOET
   title: &MAIN_DEVOPS Principal DevOps Engineer
   time_range: May 2018 - March 2019
+  abbr_time_range: 5/2018 - 3/2019
   description: |
     Developer of tools to help multiple Dev teams working on different projects be more productive. Maintainer of staging and production infrastructure. DevOps Engineer working on getting automated CI/CD workflows into place. Client facing engineer and team representative. Auditor of serious bugs and issues, designer of high level solutions. Backend developer.
+  keywords:
+    - AWS (ECS, EC2, RDS)
+    - Java
+    - PostgreSQL
+    - Ansible
+    - Amazon Linux
 - <<: *NODE
   title: *MAIN_DEVOPS
   time_range: &NODE_ISPVP_TF March 2018 - December 2018
+  abbr_time_range: &NODE_ISPVP_TF_ABBR 3/2018 - 12/2018
   description: |
     In charge of automating Continuous Integration in ISP Video Project.
+  keywords:
+    - Ansible
+    - Vagrant
+    - CentOS
+    - Python
+    - Django
+    - PostgreSQL
 - <<: *NODE
   title: &MAIN_DEP_ARCH Principal Systems Deployment Architect
   time_range: *NODE_ISPVP_TF
+  abbr_time_range: *NODE_ISPVP_TF_ABBR
   description: |
     In charge of architecture in deployments to all servers related to ISP Video Project.
+  keywords:
+    - Ansible
+    - CentOS
+    - Python
+    - Django
+    - PostgreSQL
 - <<: *NODE
   title: &MAIN_SYSADMIN Principal Systems Administrator
   time_range: *NODE_ISPVP_TF
+  abbr_time_range: *NODE_ISPVP_TF_ABBR
   description: |
     In charge of server security and deployments to all servers related to ISP Video Project.
+  keywords:
+    - Ansible
+    - CentOS
+    - Python
+    - Django
+    - PostgreSQL
 - <<: *CIDS
   title: *MAIN_DEP_ARCH
   time_range: &MUBER November 2016 - October 2017
+  abbr_time_range: &MUBER_ABBR 9/2016 - 10/2017
   description: |
     In charge of architecture in deployments to all servers related to project MUBER.
+  keywords:
+    - Azure (VMs)
+    - Linux
+    - Python
+    - Django
+    - PostgreSQL
 - <<: *CIDS
   title: *MAIN_SYSADMIN
   time_range: *MUBER
+  abbr_time_range: *MUBER_ABBR
   description: |
     In charge of server security and deployments to all servers related to project MUBER.
+  keywords:
+    - Azure (VMs)
+    - Linux
+    - Python
+    - Django
+    - PostgreSQL
 - <<: *NCIDS
   title: *MAIN_DEP_ARCH
   time_range: November 2016 - October 2017
+  abbr_time_range: 9/2016 - 10/2017
   description: |
     In charge of architecture in deployments to all servers related to project GOODAPPETIT.
+  keywords:
+    - Azure (VMs)
+    - IBM SoftLayer
+    - On Prem
+    - CentOS
+    - Python
+    - Django
+    - PostgreSQL
 - <<: *NCIDS
   title: *MAIN_SYSADMIN
   time_range: June 2016 - October 2017
+  abbr_time_range: 6/2016 - 10/2017
   description: |
     In charge of server security and deployments to all servers related to project GOODAPPETIT.
+  keywords:
+    - Azure (VMs)
+    - IBM SoftLayer
+    - On Prem
+    - CentOS
+    - Python
+    - Django
+    - PostgreSQL
 - <<: *NCIDS
   title: &MAIN_DBA Principal Database Administrator
   time_range: February 2016 - October 2017
+  abbr_time_range: 2/2016 - 10/2017
   description: |
     General consultant for bug fixes and other issues (at a database level), Principal player in final database design, Worked on database level development such as triggers, procedures, data integrity and application security for GOODAPPETIT.
+  keywords:
+    - PostgreSQL
 - <<: *NCIDS
   title: &DJANGO_DEV Python / Django Backend Developer and Analyst
   time_range: February 2016 - August 2016
+  abbr_time_range: 2/2016 - 8/2016
   description: |
     General consultant for bug fixes and other issues (at a application level), Principal player in design of general application internals, Worked on authentication, permission and security systems in addition to Research and Development for GOODAPPETIT.
+  keywords:
+    - Python
+    - Django
+    - PostgreSQL
 - <<: *NODE
   title: &JAVA_DEV Java Programmer / Analyst
   time_range: September 2015 - February 2016
+  abbr_time_range: 9/2015 - 2/2016
   description: |
     Worked on facial recognition system with OpenCV and IP Cameras built by Tiandy.
+  keywords:
+    - Java
+    - OpenCV
+    - Windows
 - <<: *IEEE_CS_UTPL
   title: &VP Vice President
   time_range: October 2015 - March 2016
+  abbr_time_range: 10/2015 - 3/2016
   description: |
     Organized educational events and people who participated.
 education_title: EDUCATION
 education:
 - institution: Universidad Técnica Particular de Loja (UTPL)
   location: *LOJA
-  degree: Computer Science Engineer
+  degree: Computer Science / Software Engineering
   time_range: September 2012 - February 2018
+  abbr_time_range: 9/2012 - 2/2018
   description: |
     Broad experience in many facets of Computer Science; system analysis, programming, artificial intelligence and artificial vision, database design and administration, networking, parallel computing, project management and computer architecture design.
 - institution: Boulder Universal
   <<: *EDU_HS
   time_range: September 2011 - May 2012
+  abbr_time_range: 9/2011 - 5/2012
   description: |
     Finished High School as a Distance Student in Cuenca, Ecuador.
 - institution: Fairview High School
   <<: *EDU_HS
   time_range: September 2008 - May 2011
+  abbr_time_range: 9/2008 - 5/2011
   description: |
     High School studies with a greater focus on Math, Science and World History.
 skills_title: SKILLS
