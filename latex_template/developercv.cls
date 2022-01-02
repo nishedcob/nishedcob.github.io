@@ -7,9 +7,9 @@
 % http://www.LaTeXTemplates.com
 %
 % Authors:
-% Jan Vorisek (jan@vorisek.me)
-% Based on a template by Jan Küster (info@jankuester.com)
-% Modified for LaTeX Templates by Vel (vel@LaTeXTemplates.com)
+% Jan Vorisek (jan (at) vorisek (dot) me)
+% Based on a template by Jan Küster (info (at) jankuester (dot) com)
+% Modified for LaTeX Templates by Vel (vel (at) LaTeXTemplates (dot) com)
 %
 % License:
 % The MIT License (see included LICENSE file)
