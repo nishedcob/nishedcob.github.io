@@ -7,3 +7,10 @@ _site/
 .jekyll-metadata
 
 # End of https://www.gitignore.io/api/jekyll
+
+## Custom Additions
+**/*.pdf
+**/*.log
+**/*.patch
+src/pip-delete-this-directory.txt
+src/ninja2/**
