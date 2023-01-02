@@ -1,189 +1,57 @@
-[Revisar en Español](/es/)
+{{ lang_switch }}
 
-## Nicholas Spalding Earley-Dolenc
-### *Email:* nishedcob (at) gmail (dot) com
-### Loja, Ecuador
-DevOps Engineer / Data Scientist / \*NIX Backend Developer
+## {{ name }}
+### *Email:* {{ email }}
+### {{ location }}
+{{ subtitle }}
 
-**Full Open Source Stack**
+**{{ subsubtitle }}**
 
-### PROFESSIONAL EXPERIENCE
+### {{ professional_exp_title }}
+{%- for exp in professional_exp %}
 
-#### **ioet,** Loja, Ecuador — *Senior DevOps Adviser*
-##### September 2020 - PRESENT
-Daily DevOps Advice and Mentoring for Junior and Aspiring DevOps Engineers.
+#### **{{ exp.company }},** {{ exp.location }} — *{{ exp.title }}*
+##### {{ exp.time_range }}
+{{ exp.description }}
+{%- endfor %}
 
-#### **ioet,** Loja, Ecuador — *Javascript Developer*
-##### December 2020 - PRESENT
-NodeJS Backend Developer for an eCommerce platform.
+### {{ education_title }}
+{%- for edu in education %}
 
-#### **ioet,** Loja, Ecuador — *Release / DevOps Engineer Tech Lead*
-##### March 2019 - December 2020
-Standardization of Release Engineering for the project as well as Gatekeeper of Production code.
-DevOps maintenance, day to day operations and automation including writing tools for common
-processes. Cloud Engineering as well as planning as a Cloud Architect and continual
-maintenance of said Cloud Infrastructure over the course of its lifespan and evolution.
-Project Management for my team of DevOps engineers including planning work via roadmaps,
-writing tickets for pending tasks/work, communication of accomplishments and work with
-other teams and the client. Implementation of a GitOps life cycle for releases. Improvements
-to product security under a DevSecOps model. Automation of parts of the development
-lifecycle with CI/CD.
+#### **{{ edu.institution }},** {{ edu.location }} — *{{ edu.degree }}*
+##### {{ edu.time_range }}
+{{ edu.description }}
+{%- endfor %}
 
-#### **ioet,** Loja, Ecuador — *Principal Cloud Engineer*
-##### December 2018 - March 2019
-Tasked with a total rewrite of Project Infrastructure as Code prior to a major rollout to additional customers.
+### {{ skills_title }}
+{%- for skill in skills %}
 
-#### **ioet,** Loja, Ecuador — *Principal DevOps Engineer*
-##### May 2018 - March 2019
-Developer of tools to help multiple Dev teams working on different projects be more productive. Maintainer of staging and production infrastructure. DevOps Engineer working on getting automated CI/CD workflows into place. Client facing engineer and team representative. Auditor of serious bugs and issues, designer of high level solutions. Backend developer.
+{{ skill.title }}{% if skill.list is defined %}:{% else %}.{% endif %}
+{%- for item in skill.list %}
+- {% if item.sublist is not defined %}{{ item }}{% else %}{{ item.title }}{% if item.list is not defined %}:{% else %}.{% endif %}
+{%- for subitem in item.sublist %}
+  - {% if subitem.subsublist is not defined %}{{ subitem }}{% else %}{{ subitem.title }}:
+{%- for subsubitem in subitem.subsublist %}
+    - {{ subsubitem }}
+{%- endfor %}
+{%- endif %}
+{%- endfor %}
+{%- endif %}
+{%- endfor %}
+{%- endfor %}
 
-#### **Nodo / Electritelecom,** Loja, Ecuador — *Principal DevOps Engineer*
-##### March 2018 - December 2018
-In charge of automating Continuous Integration in ISP Video Project.
+### {{ human_lang_title }}
+{% for lang in human_lang %}{% if not loop.first %}, {% endif %}{{ lang.lang }} ({{ lang.level }}){% endfor %}
 
-#### **Nodo / Electritelecom,** Loja, Ecuador — *Principal Systems Deployment Architect*
-##### March 2018 - December 2018
-In charge of architecture in deployments to all servers related to ISP Video Project.
+### {{ projects_title }}
+{%- for project in projects %}
+#### **{{ project.name }}** - *{{ project.summary }}*
+{{ project.description }}
+{%- if project.code is defined and (project.code.gitlab is defined or project.code.github is defined) -%}
+Code at: {% if project.code.gitlab is defined %}[GitLab](https://gitlab.com/{{ project.code.gitlab }}){% endif %}{% if project.code.gitlab is defined and project.code.github is defined %} {% endif %}{% if project.code.github is defined %}[GitHub](https://github.com/{{ project.code.github }}){% endif %}
+{%- endif %}
 
-#### **Nodo / Electritelecom,** Loja, Ecuador — *Principal Systems Administrator*
-##### March 2018 - December 2018
-In charge of server security and deployments to all servers related to ISP Video Project.
-
-#### **CIDSecure,** Loja, Ecuador — *Principal Systems Deployment Architect*
-##### November 2016 - October 2017
-In charge of architecture in deployments to all servers related to project MUBER.
-
-#### **CIDSecure,** Loja, Ecuador — *Principal Systems Administrator*
-##### November 2016 - October 2017
-In charge of server security and deployments to all servers related to project MUBER.
-
-#### **Nodo / Electritelecom with CIDSecure,** Loja, Ecuador — *Principal Systems Deployment Architect*
-##### November 2016 - October 2017
-In charge of architecture in deployments to all servers related to project GOODAPPETIT.
-
-#### **Nodo / Electritelecom with CIDSecure,** Loja, Ecuador — *Principal Systems Administrator*
-##### June 2016 - October 2017
-In charge of server security and deployments to all servers related to project GOODAPPETIT.
-
-#### **Nodo / Electritelecom with CIDSecure,** Loja, Ecuador — *Principal Database Administrator*
-##### February 2016 - October 2017
-General consultant for bug fixes and other issues (at a database level), Principal player in final database design, Worked on database level development such as triggers, procedures, data integrity and application security for GOODAPPETIT.
-
-#### **Nodo / Electritelecom with CIDSecure,** Loja, Ecuador — *Python / Django Backend Developer and Analyst*
-##### February 2016 - August 2016
-General consultant for bug fixes and other issues (at a application level), Principal player in design of general application internals, Worked on authentication, permission and security systems in addition to Research and Development for GOODAPPETIT.
-
-#### **Nodo / Electritelecom,** Loja, Ecuador — *Java Programmer / Analyst*
-##### September 2015 - February 2016
-Worked on facial recognition system with OpenCV and IP Cameras built by Tiandy.
-
-#### **IEEE Computer Society UTPL Chapter,** Loja, Ecuador — *Vice President*
-##### October 2015 - March 2016
-Organized educational events and people who participated.
-
-### EDUCATION
-#### **Universidad Técnica Particular de Loja (UTPL),** Loja, Ecuador — *Computer Science Engineer*
-##### September 2012 - February 2018
-Broad experience in many facets of Computer Science; system analysis, programming, artificial intelligence and artificial vision, database design and administration, networking, parallel computing, project management and computer architecture design.
-
-#### **Boulder Universal,** Boulder, Colorado, United States — *High School*
-##### September 2011 - May 2012
-Finished High School as a Distance Student in Cuenca, Ecuador.
-
-#### **Fairview High School,** Boulder, Colorado, United States — *High School*
-##### September 2008 - May 2011
-High School studies with a greater focus on Math, Science and World History.
-
-### SKILLS
-Backend Programmer and Analyst with Experience in:
-- C
-- Python
-- Java
-- Bash
-- PHP
-
-Systems Administrator with:
-- OS Experience in:
-  - Debian
-  - CentOS
-  - Ubuntu
-  - Fedora
-  - Archlinux
-  - Xen (with Debian as Dom0)
-  - QubesOS (Xen with Fedora as Dom0)
-  - pfSense
-- Cluster Experience with:
-  - PelicanHPC
-  - Rocks
-- Application Experience with:
-  - NGinX
-  - uWSGI
-  - Gunicorn
-  - Docker (Docker-Compose and Docker-Swarm)
-  - Kubernetes
-  - Ansible
-  - ProFTPD
-  - HTCondor
-  - CronD
-  - SystemD
-  - SELinux
-  - Fail2Ban
-  - OpenSSH
-  - OpenVPN
-  - GitLab CE
-  - GitWeb
-  - SSLH
-  - Moodle
-- Providers Experience:
-  - Physical Servers
-  - Microsoft Azure
-  - IBM Softlayer
-  - Linode
-  - DigitalOcean
-  - Google Cloud Platform
-  - Amazon Web Services
-
-Database Administrator with:
-- SQL Experience in:
-  - PostgreSQL
-  - MySQL/MariaDB
-  - Relational Database Design
-- NoSQL experience with:
-  - Neo4J
-  - MongoDB
-  - Redis
-- Triplestore Experience with:
-  - Datamapping as:
-    - RDF
-    - N-Triples
-  - DBPedia queries via SPARQL
-  - OpenLink Virtuoso
-
-Systems Deployment Architect for the design and implementation of high level deployment and maintenance plans of N-Level Systems across M-Tiers that provide quality attributes including:
-- Portability
-- Scalability
-- Security
-
-Limited experience with design and implementation of SOA and Microservices Architectures.
-
-Some Project Management Experience especially with:
-- Function Point based Cost/Time Estimations
-- Earned Value Management progress estimations
-
-3D Modeling with:
-- years of experience in Trimble (formerly Google) Sketchup
-- months of experience in OpenSCAD
-
-### HUMAN LANGUAGES
-English (native speaker), Spanish (fluent)
-
-### PROJECTS
-#### **ISP Video Service** - *Automate Deployment and Configuration of Video Streaming Service*
-Video streaming service on ISP's local WAN, using Django, Gunicorn, PostgreSQL and NGinX. Deployment automated with Ansible Playbook.
-
-#### **GitEDU-Ansible** - *Automate Deployment and Configuration of Engineering Thesis*
-Ansible playbook for deploying engineering thesis (GitEDU + EduNube + GitServerHTTPEndpoint). Was initially using Debian Docker SSH image for testing, now using Debian Vagrantfile.
-Code at: [GitLab](https://gitlab.com/nishedcob/GitEDU-Ansible) [GitHub](https://github.com/nishedcob/GitEDU-Ansible)
+{% endfor %}
 
 #### **Docker SSH** — *Lightweight containers for testing deployments*
 At the moment, only a Debian based Docker image that runs sshd with supervisord, for initial testing with Ansible or other orchestration frameworks. Code at: [GitLab](https://gitlab.com/nishedcob/docker-ssh) [GitHub](https://github.com/nishedcob/docker-ssh)
