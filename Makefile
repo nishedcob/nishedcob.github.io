@@ -33,21 +33,36 @@ all:
 
 ## build |-| Build Development Docker Image
 build:
-	docker build -t $(JEKYLL_IMAGE) .
+	@if [ "$$(uname -m)" = "aarch64" ] || [ "$$(uname -m)" = "arm64" ] ; then \
+		echo "docker build -f Dockerfile.debian -t $(JEKYLL_IMAGE) ." ; \
+		docker build -f Dockerfile.debian -t $(JEKYLL_IMAGE) . ; \
+	else \
+		echo "docker build -t $(JEKYLL_IMAGE) ." ; \
+		docker build -t $(JEKYLL_IMAGE) . ; \
+	fi
 
 ## run |-| Run Development Docker Image
 run: build
-	if [ -d env ] ; then \
-		rm -rdvf env ; \
+	@if [ "$$(uname -m)" = "aarch64" ] || [ "$$(uname -m)" = "arm64" ] ; then \
+		echo "docker run -p 8080:8080 --rm nishedcob/nishedcob.github.io:dev" ; \
+		docker run -p 8080:8080 --rm nishedcob/nishedcob.github.io:dev ; \
+	else \
+		if [ -d env ] ; then \
+			rm -rdvf env ; \
+		fi ; \
+		echo "docker run --rm --volume=\"$$PWD:/srv/jekyll\" --publish '[::1]:4000:4000' $(JEKYLL_IMAGE) jekyll serve" ; \
+		docker run --rm --volume="$$PWD:/srv/jekyll" --publish '[::1]:4000:4000' $(JEKYLL_IMAGE) jekyll serve ; \
 	fi
-	docker run --rm --volume="$$PWD:/srv/jekyll" --publish '[::1]:4000:4000' $(JEKYLL_IMAGE) jekyll serve
 
 ## shell |-| Run a Shell in the Development Docker Image
 shell: build
-	if [ -d env ] ; then \
-		rm -rdvf env ; \
+	@if [ "$$(uname -m)" = "aarch64" ] || [ "$$(uname -m)" = "arm64" ] ; then \
+		echo "docker run -it -p 8080:8080 --rm --entrypoint /bin/bash $(JEKYLL_IMAGE)" ; \
+		docker run -it -p 8080:8080 --rm --entrypoint /bin/bash $(JEKYLL_IMAGE) ; \
+	else \
+		echo "docker run -it --rm --volume=\"$$PWD:/srv/jekyll\" --publish '[::1]:4000:4000' --entrypoint /bin/bash $(JEKYLL_IMAGE)" ; \
+		docker run -it --rm --volume="$$PWD:/srv/jekyll" --publish '[::1]:4000:4000' --entrypoint /bin/bash $(JEKYLL_IMAGE) ; \
 	fi
-	docker run -it --rm --volume="$$PWD:/srv/jekyll" --publish '[::1]:4000:4000' --entrypoint /bin/bash $(JEKYLL_IMAGE)
 
 ## clean |-| Delete Development Docker Image
 clean:
