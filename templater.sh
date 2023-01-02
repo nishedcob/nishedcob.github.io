@@ -62,24 +62,45 @@ build_all() {
     build_es
 }
 
+build_ci() {
+    build_all
+}
+
 case "$1" in
-    en)
+    en_latex) ## Build English LaTeX
+        pip_install
+        build_en_latex
+        ;;
+    es_latex) ## Build Spanish LaTeX
+        pip_install
+        build_es_latex
+        ;;
+    en_web) ## Build English Markdown (for Website)
+        pip_install
+        build_en_web
+        ;;
+    es_web) ## Build Spanish Markdown (for Website)
+        pip_install
+        build_es_web
+        ;;
+    en) ## Build English (LaTeX + Markdown for Website)
         pip_install
         build_en
         ;;
-    es)
+    es) ## Build Spanish (LaTeX + Markdown for Website)
         pip_install
         build_es
         ;;
-    ci | all)
+    ci) ## Alias for Build All
+        pip_install
+        build_ci
+        ;;
+    all) ## Build English (LaTeX + Markdown for Website)
         pip_install
         build_all
         ;;
     *)
         echo "Available options:"
-        printf "\ten\tBuild English\n"
-        printf "\tes\tBuild Spanish\n"
-        printf "\tci\tAlias for Build All\n"
-        printf "\tall\tBuild All\n"
+        sed -n '/sed/d; /) ## /s/) ## / | /p' $0 | column -ts '|'
         ;;
 esac

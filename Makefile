@@ -18,11 +18,20 @@ run_templater: build_templater
 
 ## index.md |-| Build index.md
 index.md: en.yaml universal.yaml index.md.j2
-	$(MAKE) run_templater CMD="en" JINJA_IMAGE=$(JINJA_IMAGE)
+	$(MAKE) run_templater CMD="en_web" JINJA_IMAGE=$(JINJA_IMAGE)
 
 ## es/index.md |-| Build es/index.md
 es/index.md: es.yaml universal.yaml index.md.j2
-	$(MAKE) run_templater CMD="es" JINJA_IMAGE=$(JINJA_IMAGE)
+	$(MAKE) run_templater CMD="es_web" JINJA_IMAGE=$(JINJA_IMAGE)
+
+## main.tex |-| Build main.tex
+main.tex: en.yaml universal.yaml main.tex.j2
+	$(MAKE) run_templater CMD="en_latex" JINJA_IMAGE=$(JINJA_IMAGE)
+
+
+## es/main.tex |-| Build es/main.tex
+es/main.tex: es.yaml universal.yaml main.tex.j2
+	$(MAKE) run_templater CMD="es_latex" JINJA_IMAGE=$(JINJA_IMAGE)
 
 ## run_latex_builder |-| Run LaTeX Compiler Docker Image
 run_latex_builder: CMD=""
