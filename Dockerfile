@@ -1,20 +1,8 @@
 
-FROM debian:buster
-
-RUN apt-get update
-
-RUN apt-get install -y ruby ruby-dev ruby-bundler build-essential zlib1g-dev libcurl4-openssl-dev git
-
-RUN mkdir -pv /app
-WORKDIR /app
+FROM jekyll/jekyll:4.0
 
 ADD Gemfile .
-ADD Gemfile.lock .
 
-RUN bundle install
+RUN chown -R jekyll:jekyll .
 
-ADD . .
-
-RUN timeout 60s jekyll build --verbose --trace
-
-CMD [ "jekyll", "serve", "--verbose", "--trace", "--port", "8080", "--incremental", "--host", "0.0.0.0" ]
+RUN gem install bundler:1.16.1
