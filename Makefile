@@ -60,8 +60,8 @@ shell: build
 		echo "docker run -it -p 8080:8080 --rm --entrypoint /bin/bash $(JEKYLL_IMAGE)" ; \
 		docker run -it -p 8080:8080 --rm --entrypoint /bin/bash $(JEKYLL_IMAGE) ; \
 	else \
-		echo "docker run -it --rm --volume=\"$$PWD:/srv/jekyll\" --publish '[::1]:4000:4000' --entrypoint /bin/bash $(JEKYLL_IMAGE) jekyll serve" ; \
-		docker run -it --rm --volume="$$PWD:/srv/jekyll" --publish '[::1]:4000:4000' --entrypoint /bin/bash $(JEKYLL_IMAGE) jekyll serve ; \
+		echo "docker run -it --rm --volume=\"$$PWD:/srv/jekyll\" --publish '[::1]:4000:4000' --entrypoint /bin/bash $(JEKYLL_IMAGE)" ; \
+		docker run -it --rm --volume="$$PWD:/srv/jekyll" --publish '[::1]:4000:4000' --entrypoint /bin/bash $(JEKYLL_IMAGE) ; \
 	fi
 
 ## clean |-| Delete Development Docker Image
