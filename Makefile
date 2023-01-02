@@ -66,7 +66,17 @@ build:
 
 ## run |-| Run Development Docker Image
 run: build
+	if [ -d env ] ; then \
+		rm -rdvf env ; \
+	fi
 	docker run --rm --volume="$$PWD:/srv/jekyll" --publish '[::1]:4000:4000' $(JEKYLL_IMAGE) jekyll serve
+
+## shell |-| Run a Shell in the Development Docker Image
+shell: build
+	if [ -d env ] ; then \
+		rm -rdvf env ; \
+	fi
+	docker run -it --rm --volume="$$PWD:/srv/jekyll" --publish '[::1]:4000:4000' --entrypoint /bin/bash $(JEKYLL_IMAGE)
 
 ## clean |-| Delete Development Docker Image
 clean:
