@@ -10,5 +10,8 @@ build:
 run: build
 	docker run -p 8080:8080 --rm nishedcob/nishedcob.github.io:dev
 
+shell: build
+	docker run -it -p 8080:8080 --rm --entrypoint /bin/bash nishedcob/nishedcob.github.io:dev
+
 clean:
 	docker rmi nishedcob/nishedcob.github.io:dev

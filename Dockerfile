@@ -3,7 +3,10 @@ FROM debian:buster
 
 RUN apt-get update
 
-RUN apt-get install -y ruby ruby-dev ruby-bundler build-essential zlib1g-dev libcurl4-openssl-dev
+RUN apt-get install -y ruby ruby-dev ruby-bundler build-essential zlib1g-dev libcurl4-openssl-dev git
+
+RUN mkdir -pv /app
+WORKDIR /app
 
 ADD Gemfile .
 ADD Gemfile.lock .
